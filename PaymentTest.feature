@@ -88,7 +88,7 @@ Feature: Payment Option
     
     
     
-		@manual
+    @manual
   Scenario Outline: Check payment failed popup if user cancels transaction during transaction processing
     Given User is on payment method screen
     And Checkout amount is 10 euros
@@ -103,8 +103,7 @@ Feature: Payment Option
       | MasteCard          |
       | Visa               |    
       
-    
-    
+        
       
     @manual
   Scenario: User should be able to details on "Paypal" page with storing paypal information
@@ -141,8 +140,7 @@ Feature: Payment Option
       | Sofort             |
       
       
-      
-      
+          
     @manual @e2e.android @e2e.ios
   Scenario: Verify "Stored credit card" functionality
     Given User is on "Ready to eat ?" screen under "Your order" page
@@ -265,7 +263,7 @@ Feature: Payment Option
     
     
   
-      @manual
+    @manual
   Scenario: User should be able to apply coupon code 
     Given User is on "Ready to eat ?" screen under "Your order" page
     When User enter coupon or voucher code 
@@ -273,7 +271,7 @@ Feature: Payment Option
            
            
            
-     @manual
+    @manual
   Scenario: Payment option defaults to the paypal option on first time login
     Given User is on "Ready to eat ?" screen under "Your order" page
     And All the payment options are given under "How would you like toP pay?"
