@@ -1,6 +1,6 @@
 # App     : Lieferando 
 
-# Feature : Payment Gateway testing
+# Feature : Payment Gateway
 
 # Document with test scenarios and test cases : PaymentTest.Feature
 
