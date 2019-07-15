@@ -298,5 +298,6 @@ Feature: Payment Option
     Given User is on "Ready to eat ?" screen under "Your order" page
     And All the payment options are given under "How would you like toP pay?"
     Then Paypal option should be selected by default
-    And User can select any one of the payment option as per requirement        
+    And User can select any one of the payment option as per requirement   
+    
       
